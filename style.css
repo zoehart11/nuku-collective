@@ -1,3 +1,9 @@
 * {
     background-image: url(images/greytexture.png);
 }
+
+#landing-button {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
