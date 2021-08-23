@@ -43,5 +43,12 @@ body {
 
 #showcase p {
     font-size: 20;
-    
+
+}
+
+#showcase .button{
+    font-size: 18px;
+    text-decoration:wavy;
+    color: yellow;
+
 }
