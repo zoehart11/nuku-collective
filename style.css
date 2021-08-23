@@ -1,5 +1,3 @@
-* {
-}
 
 #home {
     background-image: url(images/greytexture.png);
@@ -12,4 +10,5 @@
     padding: 0;
     width: 100%;
     height: 100%;
+    z-index: 10;
 }
