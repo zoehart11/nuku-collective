@@ -2,7 +2,8 @@
     background-image: url(images/greytexture.png);
 }
 
-body {
+#landing {
+    background-image: url(images/Screen\ Shot\ 2021-08-14\ at\ 12.45.25\ PM.png);
     margin: 0;
     padding: 0;
     width: 100%;
