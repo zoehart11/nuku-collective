@@ -2,7 +2,12 @@
 #home {
     background-image: url(images/greytexture.png);
 }
-
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color:yellow;
+}
 #landing {
     background-image: url(images/Screen\ Shot\ 2021-08-14\ at\ 12.45.25\ PM.png);
     margin: 0;
