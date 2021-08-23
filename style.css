@@ -13,7 +13,7 @@ body {
 }
 
 
-/*#landing {
+#landing {
     background-image: url(images/Screen\ Shot\ 2021-08-14\ at\ 12.45.25\ PM.png);
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@ body {
     height: 100%;
     z-index: 10;
     background-size: 100%;
-}*/
+}
 
 #showcase {
     background-image: url(images/Screen\ Shot\ 2021-08-14\ at\ 12.45.25\ PM.png);
