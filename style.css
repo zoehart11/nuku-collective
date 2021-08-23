@@ -3,7 +3,7 @@
 
 #home {
     background-image: url(images/greytexture.png);
-    background-size:cover;
+    size: 100%;
 }
 
 #landing {
