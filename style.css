@@ -12,8 +12,8 @@ body {
 }
 
 #logo {
-    font-size: 40px;
     float: left;
+    size: 30%;
 }
 
 /* ==== Nav ======================== */
@@ -51,9 +51,7 @@ body {
 .main-nav li, .main-nav a {
     display: inline-block;
 }
-.main-nav a {
 
-}
 
 /* #landing {
     background-image: url(images/Screen\ Shot\ 2021-08-14\ at\ 12.45.25\ PM.png);
