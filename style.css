@@ -10,13 +10,9 @@ body {
     color:yellow;
     line-height: 1.6;
 }
-
 #logo {
-   size: 30%;
-}
-
-#logo img {
-    size: 30%;
+    width: 30%;
+    height: 30%
 }
 
 /* ==== Nav ======================== */
@@ -27,7 +23,7 @@ body {
 
 .main-nav ul {
     list-style-type: none;
-    float: right;
+    float: center;
 }
 
 .main-nav ul li {
