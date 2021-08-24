@@ -18,13 +18,13 @@ body {
 /* ==== Nav ======================== */
 .main-nav {
     margin: 20px auto;
-    /*width: 90vw;*/
+    width: 90vw;
     align-content: center;
 }
 
 .main-nav ul {
     list-style-type: none;
-    display: inline-block;
+    display: block;
 }
 
 .main-nav ul li {
