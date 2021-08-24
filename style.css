@@ -13,6 +13,9 @@ body {
 
 #logo {
     float: left;
+}
+
+#logo img {
     size: 30%;
 }
 
