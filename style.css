@@ -27,10 +27,6 @@ body {
     display: inline-block;
 }
 
-.main-nav ul li {
-    margin-right: 10vw;
-}
-
 .main-nav ul li:last-child {
     margin-right: 0;
 }
