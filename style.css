@@ -24,7 +24,7 @@ body {
 
 .main-nav ul li {
     display: inline-block;
-    margin-right: 13em;
+    margin-right: 10vw;
 }
 
 .main-nav ul li:last-child {
@@ -35,6 +35,7 @@ body {
     text-decoration: none;
     color: #333;
     font-size: 1.7em;
+    transition: 0.25s;
 }
 
 .main-nav ul li a:hover {
@@ -42,8 +43,10 @@ body {
     color: #999;
 }
 
-.main-nav li a {
+.main-nav li, .main-nav a {
     display: inline-block;
+}
+.main-nav a {
 
 }
 
