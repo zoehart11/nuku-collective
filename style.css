@@ -3,7 +3,6 @@
     background-image: url(images/greytexture.png);
 }
 
-
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -20,6 +19,7 @@ body {
 
 .main-nav ul {
     list-style-type: none;
+    float: right;
 }
 
 .main-nav ul li {
@@ -42,6 +42,11 @@ body {
     color: #999;
 }
 
+.main-nav li a {
+    display: inline-block;
+
+}
+
 /* #landing {
     background-image: url(images/Screen\ Shot\ 2021-08-14\ at\ 12.45.25\ PM.png);
     margin: 0;
@@ -52,6 +57,7 @@ body {
     background-size: 100%;
 }*/
 
+/* ==== Landing Image ============== */
 #showcase {
     background-image: url(images/scanedit2.jpg);
     height: 100vh;
