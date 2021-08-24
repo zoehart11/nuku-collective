@@ -15,7 +15,7 @@ body {
     height: 30%
 }
 
-/* ==== Nav ======================== 
+/* ==== Nav ======================== */
 .main-nav {
     margin: 20px auto;
     width: 90vw;
@@ -60,7 +60,7 @@ body {
     height: 100%;
     z-index: 10;
     background-size: 100%;
-}*/
+}
 
 /* ==== Landing Image ============== */
 #showcase {
