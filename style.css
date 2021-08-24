@@ -24,10 +24,10 @@ body {
 .main-nav ul {
     list-style-type: none;
     float: center;
+    display: inline-block;
 }
 
 .main-nav ul li {
-    display: inline-block;
     margin-right: 10vw;
 }
 
