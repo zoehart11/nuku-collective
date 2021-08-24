@@ -19,11 +19,16 @@ body {
 .main-nav {
     margin: 20px auto;
     width: 90vw;
+    align-content: center;
 }
 
 .main-nav ul {
     list-style-type: none;
     display: inline-block;
+}
+
+.main-nav ul li {
+    margin-right: 10vw;
 }
 
 .main-nav ul li:last-child {
