@@ -11,6 +11,11 @@ body {
     line-height: 1.6;
 }
 
+#logo {
+    font-size: 40px;
+    float: left;
+}
+
 /* ==== Nav ======================== */
 .main-nav {
     margin: 20px auto;
@@ -76,8 +81,7 @@ body {
 }
 
 #showcase h1 {
-    font-size: 50px;
-    
+    font-size: 50px;  
 }
 
 #showcase p {
