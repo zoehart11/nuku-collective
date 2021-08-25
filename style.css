@@ -1,7 +1,11 @@
+* {
+    box-sizing: border-box;
+}
 
 #home {
     background-image: url(images/greytexture.png);
 }
+
 
 body {
     margin: 0;
@@ -10,57 +14,29 @@ body {
     color:yellow;
     line-height: 1.6;
 }
-#logo {
-    width: 30%;
-    height: 30%
-}
+
 
 /* ==== Nav ======================== */
-.main-nav {
-    margin: 20px auto;
-    width: 90vw;
-    align-content: center;
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: lightgray;
+    font-family: cursive;
+
 }
 
-.main-nav ul {
-    list-style-type: none;
-    display: block;
+.logo {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
 }
 
-.main-nav ul li {
-    margin-right: 10vw;
-}
 
-.main-nav ul li:last-child {
-    margin-right: 0;
-}
 
-.main-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 1.7em;
-    transition: 0.25s;
-}
 
-.main-nav ul li a:hover {
-    text-decoration: underline;
-    color: #999;
-}
-
-.main-nav li, .main-nav a {
-    display: inline-block;
-}
-*/
-
-/* #landing {
-    background-image: url(images/Screen\ Shot\ 2021-08-14\ at\ 12.45.25\ PM.png);
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    background-size: 100%;
-}
 
 /* ==== Landing Image ============== */
 #showcase {
