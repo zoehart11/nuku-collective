@@ -92,9 +92,9 @@ nav {
         display: block;
         cursor: pointer ;
     }
-
+    
     .nav-active {
-        transform: translateX(0%);
+        transform: translateX(0%)!important;
     }
 }
 
