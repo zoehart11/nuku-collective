@@ -164,10 +164,10 @@ header {
         color: white;
         height: 100px;
         width: 100px;
-        transform: translate(80vw, -30vh);
+        transform: translate(85vw, -25vh);
     }
     .hamburger-menu {
-        width: 20px;
+        width: 40px;
         z-index: 15;
         margin-top: 10px;
         margin-right: 5px;
