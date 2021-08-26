@@ -11,8 +11,6 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
     line-height: 1.6;
     text-decoration: none;
 }
@@ -24,6 +22,10 @@ header {
     width: 100%;
     position: absolute;
     z-index: 10;
+    font-family: swear-display-cilati;
+    font-weight: 400;
+    font-size: 17px;
+    font-style: italic;
 }
 
 @media only screen and (min-width: 801px){
@@ -191,11 +193,6 @@ header {
 
 #showcase h1 {
     font-size: 50px;  
-}
-
-#showcase p {
-    font-size: 20;
-
 }
 
 #showcase .button{
