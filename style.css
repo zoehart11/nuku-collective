@@ -77,7 +77,6 @@ header {
         color: white;
         height: 100px;
         width: 100px;
-        overflow-x: hidden;
     }
     
     .sub-menu {
@@ -124,7 +123,6 @@ header {
     }
     .sub-menu:hover .hamburger-content {
         transform: translate(-15vw, -115px);
-        overflow-x: visible;
     }
     .hamburger-content a:hover {
         transition:0.3s;
@@ -158,6 +156,20 @@ header {
     .phonelogo img {
         margin: 0 20vw;
         width: 60vw;
+    }
+    .sub-menu{
+        position:absolute;
+        overflow: visible;
+        border: none;
+        color: white;
+        height: 100px;
+        width: 100px;
+    }
+    .hamburger-menu {
+        width: 20px;
+        z-index: 15;
+        margin-top: 10px;
+        margin-right: 5px;
     }
 }
 
