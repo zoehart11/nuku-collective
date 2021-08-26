@@ -124,6 +124,7 @@ header {
     }
     .sub-menu:hover .hamburger-content {
         transform: translate(-15vw, -115px);
+        overflow-x: visible;
     }
     .hamburger-content a:hover {
         transition:0.3s;
