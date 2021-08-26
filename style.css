@@ -164,6 +164,7 @@ header {
         color: white;
         height: 100px;
         width: 100px;
+        transform: translate(80vw, -30vh);
     }
     .hamburger-menu {
         width: 20px;
