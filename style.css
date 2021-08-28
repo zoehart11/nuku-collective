@@ -208,7 +208,6 @@ header {
     }
     .sub-menu{
         position:absolute;
-        overflow: visible;
         border: none;
         color: white;
         height: 100px;
