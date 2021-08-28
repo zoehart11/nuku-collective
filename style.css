@@ -220,9 +220,7 @@ header {
         margin-top: 10px;
         margin-right: 5px;
     }
-    .container .box .dream {
-        padding-top: 30px !important;
-    }
+  
 }
 
 /* ========== images home ========*/
@@ -256,6 +254,17 @@ header {
         padding-left: 90px;
         padding-right: 90px;
         padding-top: 150px;
+    }
+    
+}
+
+@media only screen and (max-width: 415px){
+
+    .container .box .dream {
+        width: 100%;
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-top: 30px;
     }
     
 }
