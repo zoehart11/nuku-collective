@@ -221,7 +221,7 @@ header {
         margin-right: 5px;
     }
     .container .box .dream {
-        padding-top: 30px;
+        padding-top: 30px !important;
     }
 }
 
