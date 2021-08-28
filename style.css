@@ -261,10 +261,7 @@ header {
 @media only screen and (max-width: 415px){
 
     .container .box .dream {
-        width: 100%;
-        padding-left: 90px;
-        padding-right: 90px;
-        padding-top: 30px;
+        padding-top: 0px;
     }
     
 }
