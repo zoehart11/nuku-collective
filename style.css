@@ -220,6 +220,9 @@ header {
         margin-top: 10px;
         margin-right: 5px;
     }
+    .container .box .dream {
+        padding-top: 30px;
+    }
 }
 
 /* ========== images home ========*/
