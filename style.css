@@ -100,7 +100,7 @@ header {
     position: absolute;
     width: 300px;
     margin: 0px 20px;
-    overflow-x: visible;
+    
 }
 
 @media only screen and (max-width: 800px){
