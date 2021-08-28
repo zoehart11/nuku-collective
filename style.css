@@ -21,6 +21,10 @@ body {
     overflow-x: hidden;
 }
 
+.overflow {
+    overflow-x: hidden;
+}
+
 /* ==== Landing Image ============== */
 #showcase {
     background-image: url(images/sofiazoestellateaser_1-copy.gif);
