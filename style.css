@@ -114,6 +114,7 @@ header {
     
     .sub-menu {
         float: right;
+        overflow-x: hidden;
     }
     .hamburger-menu {
         width: 60px;
