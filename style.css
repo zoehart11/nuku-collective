@@ -105,16 +105,17 @@ header {
 @media only screen and (max-width: 800px){
 
     .sub-menu{
-        overflow: visible;
+        overflow-y: visible;
+        overflow-x: hidden;
         border: none;
         color: white;
         height: 100px;
         width: 100px;
+
     }
     
     .sub-menu {
         float: right;
-        overflow-x: hidden;
     }
     .hamburger-menu {
         width: 60px;
