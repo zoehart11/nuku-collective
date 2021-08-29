@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     text-decoration: none;
+    overflow-x: hidden;
 }
 
 #home {
@@ -112,7 +113,6 @@ header {
         color: white;
         height: 100px;
         width: 100px;
-        
     }
     
     .sub-menu {
@@ -122,6 +122,7 @@ header {
         width: 60px;
         z-index: 15;
         margin-top: 30px;
+        overflow-x:visible;
     }
     
     .hamburger-content {
@@ -131,6 +132,7 @@ header {
         transition: 0.25s;
         transform: translate(30vw, -115px);
         transition-property: all;
+        overflow-x: hidden;
     }
     
     .hamburger-content a {
