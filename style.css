@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     text-decoration: none;
+    overflow-x: hidden;
 }
 
 #home {
@@ -18,12 +19,10 @@ body {
     padding: 0;
     line-height: 1.6;
     text-decoration: none;
-   
-}
-
-.overflow {
     overflow-x: hidden;
 }
+
+
 
 /* ==== Landing Image ============== */
 #showcase {
