@@ -225,9 +225,10 @@ header {
   
 }
 
-/* ========== images home ========*/
+/* ========== images home layout=================================*/
 .container {
     width: 100vw;
+    position: relative;
 }
 .container .box {
     display: flex;
@@ -268,4 +269,13 @@ header {
     
 }
 
-/* =================== values PAGE ========== */
+/* ========== Image Links home ==========*/
+
+#stella:hover {
+    cursor: pointer;
+    background-image: ;
+    opacity: 40%;
+}
+
+
+/* =================== ARCHIVEBUT HOME PAGE ========== */
