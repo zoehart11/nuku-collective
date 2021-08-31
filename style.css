@@ -273,9 +273,30 @@ header {
 
 #stella:hover {
     cursor: pointer;
-    background-image: ;
+    background-image:url(images/IMG_5595\ 2.png);
+    z-index: 100;
     opacity: 40%;
+    display: none;
 }
 
 
 /* =================== ARCHIVEBUT HOME PAGE ========== */
+
+.figure {
+    position: relative;
+    width: 360px; /* can be omitted for a regular non-lazy image */
+    max-width: 100%;
+}
+.figure img.image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .5s;
+}
+.figure:hover img.image-hover {
+  opacity: 1;
+}
