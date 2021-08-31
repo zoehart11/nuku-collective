@@ -5,10 +5,6 @@
     text-decoration: none;
 }
 
-#home {
-    background-image: url(images/greytexture.png);
-}
-
 .home {
     background-color:#e6e7e8;
 }
@@ -81,7 +77,7 @@ header {
         margin: 20px 30px;
         font-size: 25px;
         letter-spacing: 3px;
-        color: #686868;
+        color: black;
         transition: 0.25s;
     }
     nav a:hover {
@@ -269,19 +265,10 @@ header {
     
 }
 
-/* ========== Image Links home ==========*/
-
-#stella:hover {
+/* =================== HOME HOVER ========== */
+.dream:hover {
     cursor: pointer;
-    background-image:url(images/IMG_5595\ 2.png);
-    z-index: 100;
-    opacity: 40%;
-    display: none;
 }
-
-
-/* =================== ARCHIVEBUT HOME PAGE ========== */
-
 .figure {
     position: relative;
     width: 360px; /* can be omitted for a regular non-lazy image */
@@ -299,4 +286,38 @@ header {
 }
 .figure:hover img.image-hover {
   opacity: 1;
+}
+
+/* -============== Stella ======================*/
+.container-stella {
+    width: 100vw;
+    position: relative;
+}
+.container-stella .box-stella {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container-stella .box-stella .column-stella {
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+    padding-top: 150px;
+}
+
+.container-stella .box-stella .column-stella img {
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+#column1 {
+    font-family: roc-grotesk-extrawide, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    overflow: hidden;
+}
+
+#column2 {
+    overflow-y: scroll;
 }
