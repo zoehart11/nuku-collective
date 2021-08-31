@@ -12,3 +12,5 @@ function splitScroll(){
     
 }
 splitScroll();
+
+alert('test')
