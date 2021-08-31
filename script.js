@@ -1,7 +1,14 @@
+function splitScroll(){
+    const controller = new ScrollMagic.Controller();
 
-const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+    new ScrollMagic.Scene({
+        duration: 500,
+        triggerElement:'.container-stella'
+    })
+    .setPin('#column2')
+    .addIndicators()
+    .addTo(controller);
 
-toggleButton.addEventListener('click', () =>{
-    navbarLinks.classList.toggle('active')
-})
+    
+}
+splitScroll();
