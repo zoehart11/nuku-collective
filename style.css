@@ -289,14 +289,40 @@ header {
 }
 
 /* -============== Stella ======================*/
+#column1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 50vw;
+    height: 100vh;
+    padding: 2em;
+    padding-top: 150px;
+}
+
+#column2 {
+    position: absolute;
+    top: 0;
+    left: 50vw;
+    overflow: auto;
+    width: 50vw;
+    max-width: 50vw;
+    height: 100vh;
+    padding: 2em;
+    padding-top: 160px;
+}
+
 .container-stella {
     width: 100vw;
     position: relative;
+    font-family: roc-grotesk-extrawide, sans-serif;
+    font-weight: 300;
 }
 .container-stella .box-stella {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
 }
 .container-stella .box-stella .column-stella {
     display: flex;
@@ -310,18 +336,6 @@ header {
     margin-bottom: 25px;
     border-radius: 5px;
 }
-
-#column1 {
-    font-family: roc-grotesk-extrawide, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    overflow: hidden;
-}
-
-#column2 {
-    overflow-y: scroll;
-}
-
 
 /* ============== CONTACT PAGE ==============  */
 
