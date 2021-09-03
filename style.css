@@ -526,7 +526,7 @@ header {
 
  /* ================ DIRECTORY =================*/
 
-.directory {
+ .directory {
     display: flex;
     float: left;
     flex-direction: column;
