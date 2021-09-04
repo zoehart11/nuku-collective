@@ -220,7 +220,7 @@ header {
   
 }
 
-/* ========== images home layout=================================
+/* ========== images home layout=================================*/
 .container {
     width: 100vw;
     position: relative;
@@ -262,7 +262,7 @@ header {
         padding-top: 0px;
     }
     
-}*/
+}
 
 /* =================== HOME HOVER ========== */
 .dream:hover {
@@ -415,7 +415,7 @@ header {
 }
 
 .contact-form .text-box {
-    background:darkkhaki;
+    background:yellow;
     color: #fff;
     border: none;
     width: calc(50%-10px);
@@ -433,7 +433,7 @@ header {
 }
 
 .contact-form textarea {
-    background: darkkhaki;
+    background: yellow;
     color: #fff;
     border: none;
     width: 100%;
