@@ -97,6 +97,7 @@ header {
     width: 300px;
     margin: 0px 20px;
     overflow-x: visible;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 800px){
@@ -547,4 +548,28 @@ header {
     color: #666;
     text-decoration: underline;
     cursor: pointer;
+}
+
+
+/* ============= landing Typing Animation =======*/
+.line {
+    font-size: 2.5rem;
+    text-align: center;
+    border-right: solid 2px rgba(255,255,255,0.7);
+    white-space: nowrap;
+    overflow: hidden;
+    width: 14ch;
+    animation: typewriter 3s steps(22) 1s , cursor 500ms steps(22) infinite;
+    animation-iteration-count: 10;
+}
+/* typewriter animation */
+@keyframes typewriter {
+    0%{width: 0;}
+    100%{width: 14ch;}
+}
+/* cursor animation */
+@keyframes cursor {
+    0%{border-right-color: rgba(255,255,255,0.7);}
+    100%{border-right-color: transparent;}
+    
 }
