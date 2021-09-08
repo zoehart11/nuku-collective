@@ -577,27 +577,3 @@ header {
     100%{border-right-color: transparent;}   
 }
 
-/* ================ Test OVERLAP PAGE ======= */
-
-.image-stack {
-    display: grid;
-    position: relative; 
-    grid-template-columns: repeat(12, 1fr);
-  }
-  
-  .image-stack__item--bottom {
-    grid-column: 4 / -1;
-    grid-row: 1;
-  }
-  
-  .image-stack__item--top {
-    grid-row: 1;
-    grid-column: 1 / span 8;
-    padding-top: 20%; 
-    z-index: 1; 
-  }
-  
-.overlap {
-    width: 27%;
-    display: block;
-  }
