@@ -1,44 +1,44 @@
-Splitting();
+const myslide = document.querySelectorAll('.myslider'),
+    dot = document.querySelectorAll('.dot');
 
-let grids = [...document.querySelectorAll('.grid--masonry')];
+let counter = 1;
+slidefun(counter);
 
-if (grids.length && getComputedStyle(grids[0]).gridTemplateRows !== 'masonry') {
-    grids = grids.map(grid => ({
-        _el: grid,
-        gap: parseFloat(getComputedStyle(grid).gridRowGap),
-        items: [...grid.childNodes].filter(c => c.nodeType === 1),
-        ncol: 0
-    }));
+let timer = setInterval(autoslide, 8000);
+function autoslide() {
+    counter += 1;
+    slidefun(counter);
+}
+function plusSlides(n) {
+    counter += n;
+    slidefun(counter);
+    resetTimer();
+}
+function currentSlide(n) {
+    counter = n;
+    slidefun(counter);
+    resetTimer();
+}
 
+function resetTimer() {
+    clearInterval(timer);
+    timer = setInterval(autoslide, 8000)
+}
 
-    function layout() {
-        grids.forEach(grid => {
-            /* get the post relayout number of columns */
-            let ncol = getComputedStyle(grid._el).gridTemplateColumns.split(' ').length;
-
-            /* if the number of columns has changed */
-            if (grid.ncol !== ncol) {
-                /* update number of columns */
-                grid.ncol = ncol;
-
-                /* revert to initial positioning, no margin */
-                grid.items.forEach(c => c.style.removeProperty('margin-top'));
-
-                /* if we have more than one column */
-                if (grid.ncol > 1) {
-                    grid.items.slice(ncol).forEach((c, i) => {
-                        let prev_fin = grid.items[i].getBoundingClientRect().bottom /* bottom edge of item above */,
-                            curr_ini = c.getBoundingClientRect().top /* top edge of current item */;
-
-                        c.style.marginTop = `${prev_fin + grid.gap - curr_ini}px`;
-                    });
-                }
-            }
-        });
+function slidefun(n) {
+    let i;
+    for(i = 0;i<myslide.length;i++){
+        myslide[i].style.display = "none";
     }
-
-    addEventListener('load', e => {
-        layout(); /* initial load */
-        addEventListener('resize', layout, false); /* on resize */
-    }, false);
+    for(i = 0;i<dot.length;i++){
+        dot[i].classList.remove('active');
+    }
+    if(n > myslide.length){
+        counter =1;
+    }
+    if(n < 1){
+        counter = myslide.length;
+    }
+    myslide[counter - 1].style.display = "block";
+    dot[counter - 1].classList.add('active');
 }
