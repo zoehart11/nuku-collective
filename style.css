@@ -81,6 +81,7 @@ header {
     }
     nav a:hover {
         color: #b9b9b9;
+        cursor: pointer;
     }
     .hamburger-menu, .sub-menu li{
         display: none;
@@ -291,12 +292,12 @@ header {
     cursor: url(images/cursor.gif), default;
 }
 
-/* -============== Stella PAGE ======================*/
+/* -============== Stella/GENERAL FEATURE PAGE ======================*/
 #column1 {
     position: absolute;
     top: 0;
     left: 0;
-    overflow: hidden;
+    overflow: scroll;
     width: 50vw;
     height: 100vh;
     padding: 2em;
@@ -317,10 +318,23 @@ header {
 
 .container-stella {
     width: 100vw;
+    color: #666;
     position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
 }
+
+.column-stella p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align:  justify;
+    letter-spacing: -0.7px;
+}
+.column-stella h1 {
+    font-family: swear-display-cilati, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
 .container-stella .box-stella {
     display: flex;
     flex-direction: row;
@@ -544,11 +558,18 @@ header {
     padding-top: 120px;
 
 }
+.dirtitle {
+    font-family: swear-display-cilati, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: yellow;
+}
 
  .directory-text {
      font-family: Arial, Helvetica, sans-serif;
      color: #666;
-     font-size: 20px;
+     font-size: 17px;
      border-bottom: #666;
      border-width: 3px;
  }
