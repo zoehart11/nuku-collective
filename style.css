@@ -15,7 +15,7 @@ body {
 }
 
 .home {
-    background-color: #e9e9ea;
+    background-color: #dfdfdf;
 }
 
 /* ==== Landing Image ============== */
@@ -291,6 +291,12 @@ header {
 .figure:hover a#stella img.image-hover {
     cursor: url(images/cursor.gif), default;
 }
+.figure:hover a#pottery img.image-hover {
+    cursor: url(images/potterycursor.png), default;
+}
+.figure:hover a#mandarin img.image-hover {
+    cursor: url(images/mandarincursor.png), default;
+}
 
 /* -============== Stella/GENERAL FEATURE PAGE ======================*/
 #column1 {
@@ -560,8 +566,8 @@ header {
 }
 .dirtitle {
     font-family: swear-display-cilati, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: 600;
+    font-style: italic;
     font-size: 35px;
     color: yellow;
 }
@@ -703,9 +709,9 @@ header {
 
 .txt h1 {
     color: yellow;
-    font-family: swear-display-cilati;
-    font-weight: 400;
     font-style: italic;
+    font-family: swear-display-cilati, sans-serif;
+    font-weight: 400;
     font-size: 50px;
     line-height: 40px;
 }
@@ -796,4 +802,14 @@ header {
     padding-top: 12%;
     width: 90%;
     height: 90%;
+}
+
+.logopot {
+    position: absolute;
+    height: 140px;
+    margin: 0px 20px;
+    overflow-x: hidden;
+    cursor: pointer;
+    padding-top: 7px;
+    border-radius: 100px;
 }
