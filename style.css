@@ -813,3 +813,13 @@ header {
     padding-top: 7px;
     border-radius: 100px;
 }
+
+.logopot2 {
+    position: absolute;
+    height: 140px;
+    margin: 0px 20px;
+    overflow-x: hidden;
+    cursor: pointer;
+    padding-top: 7px;
+    border-radius: 100px;
+}
