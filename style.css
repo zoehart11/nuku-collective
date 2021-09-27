@@ -625,7 +625,7 @@ header {
 .slider {
     position: relative;
     width: 100%;
-    background: #e9e9ea;
+    background: #dfdfdf;
     padding-top: 12%;
 }
 
@@ -754,7 +754,9 @@ header {
         padding-right: 15vw;
         padding-top: 15%;
     }
-
+    .slider{
+        padding-top: 24%;
+    }
   
 }
 
@@ -762,7 +764,9 @@ header {
    .dotsbox {
        bottom: 70px;
    }
-  
+   .slider{
+    padding-top: 10%;
+}
 }
 
 /* @media screen and (max-width: 800px) {
