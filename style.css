@@ -4,7 +4,6 @@
     box-sizing: border-box;
     text-decoration: none;
     cursor: url(image), default;
-    overflow-x: hidden;
 }
 
 body {
