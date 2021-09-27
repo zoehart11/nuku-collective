@@ -758,6 +758,13 @@ header {
   
 }
 
+@media screen and (max-width: 375px) {
+   .dotsbox {
+       bottom: 70px;
+   }
+  
+}
+
 /* @media screen and (max-width: 800px) {
     .slider{
         padding-top: 18%;
