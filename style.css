@@ -762,17 +762,26 @@ header {
 
 @media screen and (max-width: 375px) {
    .dotsbox {
-       bottom: 70px;
+       bottom: 150px;
    }
+
+   .dotsbox {
+    bottom: 150px;
+}
+
+.dot {
+    margin: 0 5px;
+}
+
    .slider {
     position: relative;
     width: 100%;
     background: #dfdfdf;
-    padding-top: 8%;
+    padding-top: 0%;
 }
 
 .myslider {
-    height: 300px;
+    height: 400px;
     overflow: hidden;
 }
 
