@@ -28,13 +28,6 @@ footer {
     background-color: #dfdfdf;
 }
 
-/* =========== PHONE STUFF =========== */
-@media only screen and (max-width: 415px)
-{
-    body {
-        overflow-x: hidden;
-    }
-}
 /* ==== Landing Image ============== */
 #showcase {
     background-image: url(images/sofiazoestellateaser_1-copy.gif);
