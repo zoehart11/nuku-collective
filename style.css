@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     cursor: url(image), default;
+    overflow-x: hidden;
 }
 
 body {
@@ -216,7 +217,7 @@ header {
 
     .phonelogo {
         align-content: center;
-        height: 30vh;
+        height: 17vh;
     }
     .phonelogo img {
         margin: 0 20vw;
