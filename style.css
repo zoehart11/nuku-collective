@@ -764,9 +764,18 @@ header {
    .dotsbox {
        bottom: 70px;
    }
-   .slider{
-    padding-top: 10%;
+   .slider {
+    position: relative;
+    width: 100%;
+    background: #dfdfdf;
+    padding-top: 8%;
 }
+
+.myslider {
+    height: 300px;
+    overflow: hidden;
+}
+
 }
 
 /* @media screen and (max-width: 800px) {
