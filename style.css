@@ -888,6 +888,8 @@ header {
     cursor: pointer;
     padding-top: 7px;
     border-radius: 100px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 @media only screen and (min-width: 415px){
     .phonelogo {
@@ -895,7 +897,7 @@ header {
     }
 }
 @media only screen and (max-width: 415px){
-    .logo {
+    .logopot {
         display: none;
     }
 
