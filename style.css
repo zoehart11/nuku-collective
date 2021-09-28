@@ -209,7 +209,7 @@ header {
 
     .phonelogo {
         align-content: center;
-        height: 17vh;
+        height: 110px;
     }
     .phonelogo img {
         margin: 0 20vw;
@@ -228,6 +228,8 @@ header {
         z-index: 15;
         margin-top: 10px;
         margin-right: 5px;
+        padding-top: 90px;
+        overflow-x: hidden;
     }
   
 }
