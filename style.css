@@ -786,6 +786,11 @@ header {
     height: 380px;
     overflow: hidden;
 }
+.txt {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 6%;
+}
 
 }
 
