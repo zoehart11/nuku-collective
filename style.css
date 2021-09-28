@@ -889,3 +889,22 @@ header {
     padding-top: 7px;
     border-radius: 100px;
 }
+@media only screen and (min-width: 415px){
+    .phonelogo {
+        display: none;
+    }
+}
+@media only screen and (max-width: 415px){
+    .logo {
+        display: none;
+    }
+
+    .phonelogo {
+        align-content: center;
+        height: 110px;
+    }
+    .phonelogo img {
+        margin: 0 20vw;
+        width: 60vw;
+    }
+}
