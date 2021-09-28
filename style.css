@@ -248,25 +248,23 @@ header {
     display: flex;
     flex-direction: column;
     width: 27%;
-    padding-top: 50px;
+   
 }
 
 .container .box .dream img {
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     border-radius: 5px;
 }
 
 @media only screen and (max-width: 650px){
     .container .box {
         flex-direction: column;
-        padding-top: 50px;
     }
     .container .box .dream {
         width: 100%;
         padding-left: 90px;
         padding-right: 90px;
-        padding-top: 25px;
     }
     
 }
@@ -286,7 +284,6 @@ header {
         width: 100%;
         padding-left: 50px;
         padding-right: 50px;
-        padding-top: 25px;
     }
     
 }
@@ -640,6 +637,7 @@ header {
     width: 100%;
     background: #dfdfdf;
     padding-top: 12%;
+    padding-bottom: 30px;
 }
 
 .myslider {
