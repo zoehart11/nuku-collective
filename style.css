@@ -280,6 +280,17 @@ header {
     
 }
 
+
+@media only screen and (max-width: 375px){
+    .container .box .dream {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 25px;
+    }
+    
+}
+
 /* =================== HOME HOVER ========== */
 .figure {
     position: relative;
