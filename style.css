@@ -328,6 +328,9 @@ header {
 .figure:hover a#mandarin img.image-hover {
     cursor: url(images/mandarincursor.png), default;
 }
+.figure:hover a#bella img.image-hover {
+    cursor: url(images/bellacursor.png), default;
+}
 
 /* -============== Stella/GENERAL FEATURE PAGE ======================*/
 #column1 {
@@ -350,7 +353,7 @@ header {
     max-width: 50vw;
     height: 100vh;
     padding: 2em;
-    padding-top: 160px;
+    padding-top: 100px;
 }
 
 .container-stella {
@@ -938,10 +941,11 @@ header {
 .container-stella .box-stella .col1 {
     float: left;
     width: 20%;
+    padding-bottom: 20px;
 }
 .container-stella .box-stella .col1 h1{
     font-family: swear-display-cilati, sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
     font-size: 40px;
     color: yellow;
@@ -970,5 +974,59 @@ header {
     text-align:  justify;
     letter-spacing: -0.7px;
     font-size: 15px;
+    padding-bottom: 20px;
 }
 
+#column2sofia {
+    position: absolute;
+    top: 0;
+    left: 50vw;
+    overflow: auto;
+    width: 50vw;
+    max-width: 50vw;
+    height: 100vh;
+    padding: 2em;
+    padding-top: 160px;
+}
+.col3 {
+    float: left;
+    width: 50%;
+    margin-right: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align:  justify;
+    letter-spacing: -0.7px;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-left: 18px;
+}
+.container-stella .box-stella .col3 h1{
+    font-family: swear-display-cilati, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color: yellow;
+    line-height: 30px;
+}
+.container-stella .box-stella .col3 h3{
+    font-family: swear-display-cilati, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+@media only screen and (max-width: 1025px){
+    .col1 {
+        display:none;
+    }
+    .col2 {
+        display:none;
+    }
+}
+@media only screen and (min-width: 1025px){
+    .col3 {
+        display:none;
+    }
+  
+}
