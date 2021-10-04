@@ -358,7 +358,7 @@ header {
 
 .container-stella {
     width: 100vw;
-    color: #666;
+    color: rgb(74, 74, 74);
     position: relative;
 }
 
@@ -367,12 +367,24 @@ header {
     font-weight: 500;
     text-align:  justify;
     letter-spacing: -0.7px;
+    columns: 2;
+    column-gap: 23px;
+}
+.column-stella h3 {
+    font-family: roc-grotesk-extrawide, sans-serif;
+    font-weight: 500;
+    text-align:  right;
+    font-size: 25px;
+    letter-spacing: -0.7px;
 }
 .column-stella h1 {
     font-family: swear-display-cilati, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
+    font-size: 57px;
+    color: yellow;
+    line-height: 8px;
+   text-align: left;
 }
 
 .container-stella .box-stella {
@@ -941,44 +953,7 @@ header {
 }
 
 /* <========== SOFIA TEST ==============> */
-.container-stella .box-stella .col1 {
-    float: left;
-    width: 20%;
-    padding-bottom: 20px;
-}
-.container-stella .box-stella .col1 h1{
-    font-family: swear-display-cilati, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 40px;
-    color: yellow;
-    line-height: 30px;
-}
-.container-stella .box-stella .col1 h3{
-    font-family: swear-display-cilati, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    line-height: 34px;
-}
-.container-stella .box-stella .col1 p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    text-align:  justify;
-    letter-spacing: -0.7px;
-    font-size: 15px;
-}
-.container-stella .box-stella .col2 {
-    float: left;
-    width: 20%;
-    margin-right: 50%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    text-align:  justify;
-    letter-spacing: -0.7px;
-    font-size: 15px;
-    padding-bottom: 20px;
-}
+
 
 #column2sofia {
     position: absolute;
@@ -991,48 +966,11 @@ header {
     padding: 2em;
     padding-top: 160px;
 }
-.col3 {
-    float: left;
-    width: 50%;
-    margin-right: 50%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    text-align:  justify;
-    letter-spacing: -0.7px;
-    font-size: 15px;
-    padding-bottom: 20px;
-    padding-left: 18px;
-}
-.container-stella .box-stella .col3 h1{
-    font-family: swear-display-cilati, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 40px;
-    color: yellow;
-    line-height: 30px;
-}
-.container-stella .box-stella .col3 h3{
-    font-family: swear-display-cilati, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    line-height: 34px;
+#sofiabody {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
-@media only screen and (max-width: 1025px){
-    .col1 {
-        display:none;
-    }
-    .col2 {
-        display:none;
-    }
-}
-@media only screen and (min-width: 1025px){
-    .col3 {
-        display:none;
-    }
-  
-}
 
 /* ================ STELLA BROKEN GRID ===============*/
 .card {
@@ -1079,3 +1017,4 @@ header {
      grid-column: span 2 /auto;
  }
 }
+
