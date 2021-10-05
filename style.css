@@ -979,7 +979,6 @@ header {
     justify-content: center;
     align-items: center;
     font-size: 3rem;
-    color: #fff;
     height: 100%;
     width: 100%;
     /* border-radius: 4px; */
@@ -1017,6 +1016,13 @@ header {
  
  .card-wide {
      grid-column: span 2 /auto;
+ }
+
+ .textstella{
+    font-family: roc-grotesk-extrawide, sans-serif;
+    font-weight: 400;
+    text-align:  right;
+    font-size: 17px;
  }
 
 
