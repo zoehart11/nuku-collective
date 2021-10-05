@@ -1007,7 +1007,9 @@ header {
     grid-auto-rows: 240px;
  }
 
- @media screen and (min-width: 550px){
+ #stellabod {
+     background: url(images/stellafabricbkgnd.jpg);
+ }
 
  .card-tall {
      grid-row: span 2 / auto;
@@ -1016,5 +1018,6 @@ header {
  .card-wide {
      grid-column: span 2 /auto;
  }
-}
+
+
 
