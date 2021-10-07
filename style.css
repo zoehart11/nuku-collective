@@ -972,7 +972,7 @@ header {
 }
 
 
-/* ================ STELLA BROKEN GRID ===============*/
+/* ================ STELLA  GRID ===============*/
 .card {
     display: flex;
     flex-direction: column;
@@ -984,7 +984,6 @@ header {
     /* border-radius: 4px; */
     transition: all 500ms;
     overflow: hidden;
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1024,5 +1023,24 @@ header {
     text-align:  right;
     font-size: 17px;
  }
+ /* ======= PURPLE MANDARIN ====== */
 
+#jordybod {
+    background: url(images/jordybackground.png);
+}
 
+#jordytext1 {
+    font-size: 13px;
+    font-family: roc-grotesk-wide, sans-serif;
+    font-weight: 100;
+    text-align: right;
+    padding-left: 50px;
+}
+#jordytext2 {
+    font-size: 13px;
+    font-family: roc-grotesk-wide, sans-serif;
+    font-weight: 100;
+    text-align: left;
+    padding-left: 50px;
+
+}
