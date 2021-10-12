@@ -1055,3 +1055,10 @@ header {
   #ema-leabod {
       background: url(images/#);
   }
+
+    /* ================ VALUES / ABOUT US PAGE ============= */
+
+    #aboutus {
+        background-image: url(images/halftonegreennuku.jpg);
+        background-size: 100vw;
+    }
