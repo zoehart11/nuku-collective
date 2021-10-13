@@ -905,7 +905,7 @@ header {
     top: 0;
     left: 0;
     padding-left: 10%;
-    padding-top: 12%;
+    padding-top: 15%;
     width: 90%;
     height: 90%;
 }
@@ -1054,6 +1054,12 @@ header {
   /* ======= EMA-LEA ====== */
   #ema-leabod {
       background: url(images/ema-leabackground.png);
+  }
+
+  #emaleah3 {
+      color: yellow;
+      font-family: roc-grotesk-wide, sans-serif;
+      font-weight: 100;
   }
 
     /* ================ VALUES / ABOUT US PAGE ============= */
