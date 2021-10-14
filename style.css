@@ -892,6 +892,11 @@ header {
 
 /* ================ THE POTTERY PAGE ========== */
 
+#marielbod {
+    background: url(images/thepotterybackground.png);
+    background-size: 100vw;
+}
+
 .potteryvid {
     align-items: center;
     position: relative;
