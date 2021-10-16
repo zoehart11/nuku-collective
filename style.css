@@ -117,8 +117,8 @@ header {
     
     .hamburger-content {
         transition: 0.5s;
-        transform: translate(20vw, -115px);
-        transition-property: all;
+        transform: translate(20vw, -115px)!important;
+        transition-property: all!important;
     }
 }
 
