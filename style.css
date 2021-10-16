@@ -155,7 +155,7 @@ header {
         z-index: -3;
         text-align: left;
         transition: 0.25s;
-        transform: translate(30vw, -115px);
+        transform: translate(30vw, -50px);
         transition-property: all;
     
     }
