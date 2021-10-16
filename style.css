@@ -30,6 +30,7 @@ footer {
 
 .home {
     background-color: #dfdfdf;
+    overflow-x: hidden;
 }
 
 /* ==== Landing Image ============== */
