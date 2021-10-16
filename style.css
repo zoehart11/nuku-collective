@@ -155,7 +155,7 @@ header {
         z-index: -3;
         text-align: left;
         transition: 0.25s;
-        transform: translate(30vw, -50px);
+        transform: translate(30vw, -115px);
         transition-property: all;
     
     }
@@ -180,7 +180,7 @@ header {
         list-style: none;
         transition:0.5s;
         z-index: 0;
-        width: 250px;
+        width: 150px;
         background-color: #f2f2f2;
     }
     .sub-menu:hover .hamburger-content {
