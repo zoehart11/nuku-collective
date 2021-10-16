@@ -7,7 +7,7 @@
 }
 
 .overflowwrapper {
-    overflow-x: hidden;
+    overflow-x: hidden!important;
 }
 
 body {
@@ -30,7 +30,7 @@ footer {
 
 .home {
     background-color: #dfdfdf;
-    overflow-x: hidden;
+    overflow-x: hidden!important;
 }
 
 /* ==== Landing Image ============== */
