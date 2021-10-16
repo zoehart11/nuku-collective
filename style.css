@@ -139,7 +139,6 @@ header {
         color: white;
         height: 100px;
         width: 100px;
-        overflow-x: hidden;
     }
     
     .sub-menu {
@@ -158,6 +157,7 @@ header {
         transition: 0.25s;
         transform: translate(30vw, -115px);
         transition-property: all;
+        overflow-x: hidden;
     
     }
     
