@@ -44,6 +44,7 @@ footer {
 
 }
 
+
 #showcase h1 {
     font-size: 50px;  
     color: yellow;
@@ -54,7 +55,7 @@ footer {
     color: yellow;
 }
 #showcase p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: roc-grotesk-wide, sans-serif;
     font-size: 18px;  
     color: yellow;
 }
@@ -371,7 +372,7 @@ header {
     column-gap: 23px;
 }
 .column-stella h3 {
-    font-family: roc-grotesk-extrawide, sans-serif;
+    font-family: roc-grotesk-wide, sans-serif;
     font-weight: 500;
     text-align:  right;
     font-size: 25px;
@@ -748,7 +749,7 @@ header {
 
 .txt h1 {
     color: yellow;
-    /* font-family: roc-grotesk-extrawide, sans-serif;
+    /* font-family: roc-grotesk-wide, sans-serif;
     font-weight: 400;
     font-style: normal; */
     font-style: italic;
@@ -922,9 +923,7 @@ header {
     overflow-x: hidden;
     cursor: pointer;
     padding-top: 7px;
-    border-radius: 40px;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+    border-radius: 100px;
 }
 
 .logopot2 {
@@ -935,8 +934,6 @@ header {
     cursor: pointer;
     padding-top: 7px;
     border-radius: 100px;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
 }
 @media only screen and (min-width: 415px){
     .phonelogo {
@@ -1034,7 +1031,7 @@ header {
  }
 
  .textstella{
-    font-family: roc-grotesk-extrawide, sans-serif;
+    font-family: roc-grotesk-wide, sans-serif;
     font-weight: 400;
     text-align:  right;
     font-size: 17px;
@@ -1050,14 +1047,31 @@ header {
     font-family: roc-grotesk-wide, sans-serif;
     font-weight: 100;
     text-align: right;
-    padding-left: 50px;
+    padding-left: 40px;
 }
 #jordytext2 {
     font-size: 13px;
     font-family: roc-grotesk-wide, sans-serif;
     font-weight: 100;
     text-align: left;
-    padding-left: 50px;
+    padding-left: 40px;
+}
+#jordytexth1 {
+    font-family: swear-display-cilati;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 60px;
+    font-style: italic;
+    color: yellow;
+    text-align: right;
+}
+#jordytexth3 {
+    font-size: 25px;
+    font-family: roc-grotesk-wide, sans-serif;
+    font-weight: 200;
+    color: yellow;
+    text-align: left;
+    line-height: 28px;
 }
 
  /* ======= BELLA MARESCA ====== */
