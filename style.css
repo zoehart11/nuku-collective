@@ -138,7 +138,7 @@ header {
         border: none;
         color: white;
         height: 100px;
-        width: 100px;
+        width: 70px;
     }
     
     .sub-menu {
@@ -184,8 +184,7 @@ header {
         background-color: #f2f2f2;
     }
     .sub-menu:hover .hamburger-content {
-        transform: translate(-15vw, -115px)!important;
-        overflow-x: hidden;
+        transform: translate(-15vw, -115px);
     }
     .hamburger-content a:hover {
         transition:0.3s;
