@@ -6,9 +6,11 @@
     cursor: url(image), default;
 }
 
+@media only screen and (max-width: 450px){
 .overflowwrapper {
     overflow-x: hidden!important;
-    position: relative;
+   position: sticky;
+}
 }
 
 body {
