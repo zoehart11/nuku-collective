@@ -157,7 +157,6 @@ header {
         transition: 0.25s;
         transform: translate(30vw, -115px);
         transition-property: all;
-        overflow-x: hidden;
     
     }
     
@@ -185,7 +184,8 @@ header {
         background-color: #f2f2f2;
     }
     .sub-menu:hover .hamburger-content {
-        transform: translate(-15vw, -115px);
+        transform: translate(-15vw, -115px)!important;
+        overflow-x: hidden;
     }
     .hamburger-content a:hover {
         transition:0.3s;
