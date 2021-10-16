@@ -1047,14 +1047,14 @@ header {
     font-family: roc-grotesk-wide, sans-serif;
     font-weight: 100;
     text-align: right;
-    padding-left: 40px;
+    padding-left: 50px;
 }
 #jordytext2 {
     font-size: 13px;
     font-family: roc-grotesk-wide, sans-serif;
     font-weight: 100;
     text-align: left;
-    padding-left: 40px;
+    padding-left: 50px;
 }
 #jordytexth1 {
     font-family: swear-display-cilati;
@@ -1069,7 +1069,7 @@ header {
     font-size: 25px;
     font-family: roc-grotesk-wide, sans-serif;
     font-weight: 200;
-    color: yellow;
+    color: #666;
     text-align: left;
     line-height: 28px;
 }
