@@ -9,7 +9,7 @@
 @media only screen and (max-width: 450px){
 .overflowwrapper {
     overflow-x: hidden!important;
-   position: sticky;
+
 }
 }
 
@@ -139,6 +139,7 @@ header {
         color: white;
         height: 100px;
         width: 100px;
+        overflow-x: hidden;
     }
     
     .sub-menu {
