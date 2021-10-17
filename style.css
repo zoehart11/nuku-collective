@@ -133,7 +133,36 @@ header {
 }
 
 @media only screen and (max-width: 800px){
+    .logo {
+        align-content: center;
+    }
 
+    nav li, nav a{
+        display: inline-block;
+    }
+
+    .navbar, #nav-profile {
+        float: right;
+    }
+
+    nav ul {
+      float:left;
+        
+    }
+
+    nav a {
+        margin: 20px 30px;
+        padding-top: 13vh;
+        font-size: 14px;
+        letter-spacing: 3px;
+        color: #666;
+        transition: 0.25s;
+    }
+    nav a:hover {
+        color: #b9b9b9;
+        cursor: pointer;
+    }
+/* 
     .sub-menu{
         border: none;
         color: white;
@@ -199,7 +228,7 @@ header {
     }
     #nav-profile {
         display: none;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1000px){
@@ -236,7 +265,7 @@ header {
         margin: 0 20vw;
         width: 60vw;
     }
-    .sub-menu{
+    /* .sub-menu{
         position:absolute;
         border: none;
         color: white;
@@ -251,7 +280,7 @@ header {
         margin-right: 5px;
         padding-top: 90px;
         overflow-x: hidden;
-    }
+    } */
   
 }
 
