@@ -240,6 +240,7 @@ header {
     nav a {
         font-size: 17px;
         color: #666;
+        margin: 10px 15px;
      }
      nav li, nav a{
          display: inline-block;
