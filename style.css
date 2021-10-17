@@ -1111,6 +1111,7 @@ header {
     color: yellow;
     text-align: left;
     line-height: 28px;
+    padding-right: 30px;
 }
 #jordytexth5 {
     font-size: 17px;
@@ -1119,6 +1120,7 @@ header {
     color: yellow;
     text-align: right;
     line-height: 28px;
+    padding-right: 30px;
 }
 
  /* ======= BELLA MARESCA ====== */
