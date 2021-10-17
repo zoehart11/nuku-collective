@@ -238,9 +238,9 @@ header {
         width: 60vw;
     }
     nav a {
-        font-size: 17px;
+        font-size: 14px;
         color: #666;
-        margin: 10px 15px;
+        margin: 5px 15px;
      }
      nav li, nav a{
          display: inline-block;
