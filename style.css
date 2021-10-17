@@ -1128,3 +1128,10 @@ header {
         background-image: url(images/halftonegreennuku.jpg);
         background-size: 100vw;
     }
+
+
+    /* ================ NUKU INFO/ABOUT PAGE ============= */
+     
+    .nukubody {
+        background: url(images/nukubanner.png);
+    }
