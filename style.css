@@ -260,8 +260,7 @@ header {
      .sub-menu{
          display: none;
      }
-     nav {
-         padding-top: 30px;
+     .navbar {
          display: inline-block;
      }
 }
