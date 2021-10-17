@@ -257,6 +257,13 @@ header {
      #nav-profile {
          display: none;
      }
+     .sub-menu{
+         display: none;
+     }
+
+     nav {
+         padding-top: 30px;
+     }
 }
 
 /* ========== images home layout=================================*/
