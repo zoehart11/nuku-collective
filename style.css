@@ -241,7 +241,7 @@ header {
         border: none;
         color: white;
         height: 100px;
-        width: 60px;
+        width: 100px;
         transform: translate(83vw, -27vh);
     }
     .hamburger-menu {
