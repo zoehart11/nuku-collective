@@ -350,6 +350,7 @@ header {
   opacity: 0;
   transition: opacity .5s;
 }
+
 .figure:hover img.image-hover {
   opacity: 1;
   cursor: pointer;
@@ -628,7 +629,7 @@ header {
 /* ============== ARCHIVE PAGE ===========================  */
 
 .archives-body {
-    background:url(images/contactbackground.jpg);
+    background:url(images/sofzoestelshortgif.gif);
     z-index: 50;
     height: 100vh;
     background-size: cover;
@@ -1116,7 +1117,7 @@ header {
 #jordytexth1 {
     font-family: swear-display-cilati;
     font-weight: 400;
-    font-size: 70px;
+    font-size: 60px;
     line-height: 60px;
     font-style: italic;
     color: yellow;
