@@ -260,9 +260,9 @@ header {
      .sub-menu{
          display: none;
      }
-
      nav {
          padding-top: 30px;
+         display: inline-block;
      }
 }
 
