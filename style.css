@@ -148,6 +148,7 @@ header {
         width: 60px;
         z-index: 15;
         margin-top: 30px;
+
     }
     
     .hamburger-content {
@@ -180,7 +181,7 @@ header {
         list-style: none;
         transition:0.5s;
         z-index: 0;
-        width: 150px;
+        width: 250px;
         background-color: #f2f2f2;
     }
     .sub-menu:hover .hamburger-content {
