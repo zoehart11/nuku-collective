@@ -232,7 +232,7 @@ header {
     }
 }
 @media only screen and (max-width: 415px){
-    .logoo {
+    .logo {
         display: none;
     }
     .logo2 {
@@ -276,6 +276,8 @@ header {
      }
      nav {
          height: 50px;
+         position: absolute;
+         top: -35px;
      }
 }
 
