@@ -132,6 +132,7 @@ header {
     cursor: pointer;
 }
 
+ 
 @media only screen and (max-width: 800px){
 
     .sub-menu{
@@ -236,23 +237,26 @@ header {
         margin: 0 20vw;
         width: 60vw;
     }
-    .sub-menu{
-        position:absolute;
-        border: none;
-        color: white;
-        height: 100px;
-        width: 100px;
-        transform: translate(83vw, -27vh);
-    }
-    .hamburger-menu {
-        width: 40px;
-        z-index: 15;
-        margin-top: 10px;
-        margin-right: 5px;
-        padding-top: 90px;
-        overflow-x: hidden;
-    }
-  
+    nav a {
+        font-size: 17px;
+        color: #666;
+     }
+     nav li, nav a{
+         display: inline-block;
+     }
+     nav a:hover {
+         color: #b9b9b9;
+         cursor: pointer;
+     }
+     .navbar1, #nav-profile {
+         float: right;
+     }
+     .dropdown-content {
+         display: none;
+     }
+     #nav-profile {
+         display: none;
+     }
 }
 
 /* ========== images home layout=================================*/
@@ -1111,7 +1115,6 @@ header {
     color: yellow;
     text-align: left;
     line-height: 28px;
-    padding-right: 30px;
 }
 #jordytexth5 {
     font-size: 17px;
@@ -1120,7 +1123,6 @@ header {
     color: yellow;
     text-align: right;
     line-height: 28px;
-    padding-right: 30px;
 }
 
  /* ======= BELLA MARESCA ====== */
