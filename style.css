@@ -225,8 +225,11 @@ header {
     }
 }
 @media only screen and (max-width: 415px){
-    .logo {
+    .logoo {
         display: none;
+    }
+    .logo2 {
+        height: 90px;
     }
 
     .phonelogo {
@@ -263,7 +266,9 @@ header {
      }
      .navbar {
          display: inline-block;
-         padding-bottom: 30px;
+     }
+     nav {
+         height: 50px;
      }
 }
 
@@ -838,7 +843,7 @@ header {
     position: relative;
     width: 100%;
     background: #dfdfdf;
-    padding-top: 0%;
+    padding-top: 8%;
 }
 
 .myslider {
