@@ -5,56 +5,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>   
     <link rel="stylesheet" href="https://use.typekit.net/bsm0sec.css">
-
-
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.css">
 
 </head>
+
 <div class="phonelogo">
-    <a href="home.html"><img class="logo2" src="images/logos.gif" alt=""></a>
-</div class="overflow" >
-
-
-  <body class="home">
-      <header>
-          <a href="home.html"><img class="logo" src="images/logos.gif" alt=""></a>
-
-          <nav>
-              <ul class="navbar">
+    <a href="testgrid.html"><img class="logo2" src="images/logogif.gif" alt="logo"></a>
+</div>
+<header>
+  <div class="logoo" >
+  <a href="testgrid.html"><img class="logo" src="images/logogif.gif" alt="logo"></a>
+</div>
+  <nav>
+      <ul class="navbar">
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="nuku.html">About Us</a></li>
+          <li><a href="archives.html">Archives</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul> 
+     
+      <div class="sub-menu">
+          <img class="hamburger-menu" src="images/hamburger.png" alt="">
+          <div class="hamburger-content">
+              <ol>
+                  <li id="nothing"></li>
                   <li><a href="directory.html">Directory</a></li>
-                  <li><a href="nuku.html">Values</a></li>
+                  <li><a href="nuku.html">About Us</a></li>
                   <li><a href="archives.html">Archives</a></li>
                   <li><a href="contact.html">Contact</a></li>
-              </ul> 
-              <div class="sub-menu">
-                  <img class="hamburger-menu" src="images/hamburger.png" alt="">
-                  <div class="hamburger-content">
-                      <ol>
-                          <li id="nothing"></li>
-                          <li><a href="directory.html">Directory</a></li>
-                          <li><a href="nuku.html">About Us</a></li>
-                          <li><a href="archives.html">Archives</a></li>
-                          <li><a href="contact.html">Contact</a></li>
-                          <li id="nothing"></li>
-                      </ol>
-                  </div>
-              </div>
-          </nav>
-      </header>
+                  <li id="nothing"></li>
+              </ol>
+          </div>
+      </div>
+  </nav>
+</header>
 
-      <div class="container"> 
+  <body class="home">
+   
+     
+
+      <div class="slider">
+
+        
+        <div class="myslider">
+            <div class="txt">
+              <a href="sofia.html">
+                 <h1>In Kōrero with Sofia Heke</h1>
+                 <p>“How can fashion represent the fluidity
+                  of masculine and feminine energy?”<br>
+                  Sofia Heke answered this question through
+                  fabrication and textile development/manipulation.</p></a>
+                </div>
+            <img class="imgg" src="images/sofiashoot4.JPG" style="width: 100%; height: 100%;">
+        </div>
+       
+        <div class="myslider">
+            <div class="txt">
+              <a href="thepottery.html">
+                 <h1>In Kōrero with Mariel of the pottery.</h1>
+                 <p>Full-time mother & part-time potter, the beauty of imperfection and a look into a small batch pottery studio. Watch film here.</p></a>
+                </div>
+            <img class="imgg" src="images/thepotteryslider.png" style="width: 100%; height: 100%;">
+        </div>
+       
+        <div class="myslider">
+            <div class="txt">
+              <a href="stella.html">
+                 <h1>In Kōrero with Stella Heke</h1>
+                 <p>Practicing in Lyttelton, Ōtautahi. Her work explores a range of media often reflecting body perspective
+                  and the connection between the vulnerable and provocative.</p></a>
+                </div>
+            <img class="imgg" src="images/stellafabric.jpg" style="width: 100%; height: 100%;">
+          
+        </div>
+       
+        <div class="myslider">
+            <div class="txt">
+                 <h1>In Kōrero with Bella Maresca</h1>
+                 <p>Designer and Illustrator <br>
+                  Ōtepoti Aotearoa</p>
+                </div>
+            <img class="imgg" src="images/bella.png" style="width: 100%; height: 100%;">
+        </div>
+       
+        <div class="myslider">
+            <div class="txt">
+              <a href="jordy.html">
+                 <h1>In Kōrero with Jordyn Chin</h1>
+                 <p>One of a kind handmade gems, combining playful beads with pearls. <br>
+                  Materials from recycled goods or NZ sourced. 
+                  20% of profits donated to charity.</p>
+                </div> </a>
+            <img class="imgg" src="images/purplemandarin.png" style="width: 100%; height: 100%;">
+        </div>
+        </div>
+
+    <div class="dotsbox" style="text-align: center;">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+    <div class="container"> 
         <div class="box">
 
           <div class="dream">
             <div class="figure">
-              <a href="stella.html">
+              <a id="nuku" href="nuku.html">
+              <img class="Sirv image-main" src="images/nukuspin2.gif">
+              <img class="Sirv image-hover" src="images/nukuhova.png">
+              </a>  
+            </div>
+            <div class="figure">
+              <a  id="stella" href="stella.html">
               <img class="Sirv image-main" src="images/stellabw.png">
               <img class="Sirv image-hover" src="images/stellabw2.jpg">
               </a>  
             </div>
-           
-            <img src="images/cyanotypeedit.jpg">
+            <div class="figure">
+              <a id="pottery" href="thepottery.html">
+              <img class="Sirv image-main" src="images/thepottery3.png">
+              <img class="Sirv image-hover" src="images/potteryhover.gif">
+              </a>  
+            </div>
+ 
           </div>
 
 
@@ -62,29 +139,110 @@
 
           <div class="dream">
             <div class="figure">
-              <a href="#">
+              <a id="mandarin" href="jordy.html">
               <img class="Sirv image-main" src="images/purplemandarin.png">
               <img class="Sirv image-hover" src="images/purplemandarin3.jpg">
               </a>  
             </div>
-            <img src="images/Screen Shot 2021-08-10 at 11.42.18 AM.png">
-            <img src="images/IMG_5595.JPG">
+            
+            <div class="figure">
+              <a id="bella" href="bella.html">
+              <img class="Sirv image-main" src="images/bellahomepage1.png">
+              <img class="Sirv image-hover" src="images/bellahomepage2.png">
+              </a>  
+            </div>
+
+    
           </div>
 
           <div class="dream">
             <div class="figure">
-              <a href="#">
+              <a id="sofia" href="sofia.html">
               <img class="Sirv image-main" src="images/Screen Shot 2021-08-10 at 11.42.18 AM.png">
               <img class="Sirv image-hover" src="images/sofiatext2.jpg">
               </a>  
             </div>
-            <img src="images/A019342-R1-20-5.jpg">
-            <img src="images/IMG_5595.JPG">
-            <img src="images/IMG_5595.JPG">
+            <div class="figure">
+              <a id="ema-lea" href="emalea.html">
+              <img class="Sirv image-main" src="images/DSC_0271.JPG">
+              <img class="Sirv image-hover" src="images/emaleahover.png">
+              </a>  
+            </div>
           </div>
+
+          
 
         </div>
       </div>
+
+      <div class="container2"> 
+        <div class="box">
+
+          <div class="dream">
+            <div class="figure">
+              <a id="nuku" href="nuku.html">
+              <img class="Sirv image-main" src="images/nukuphonegif.gif">
+
+              </a>  
+            </div>
+            <div class="figure">
+              <a  id="stella" href="stella.html">
+              <img class="Sirv image-main" src="images/stellabw.gif">
+
+              </a>  
+            </div>
+            <div class="figure">
+              <a id="pottery" href="thepottery.html">
+              <img class="Sirv image-main" src="images/potteryhover.gif">
+              </a>  
+            </div>
+ 
+          </div>
+
+
+
+
+          <div class="dream">
+            <div class="figure">
+              <a id="mandarin" href="jordy.html">
+              <img class="Sirv image-main" src="images/purplemandarin.gif">
+              </a>  
+            </div>
+            
+            <div class="figure">
+              <a id="bella" href="bella.html">
+              <img class="Sirv image-main" src="images/bellahomepage1.gif">
+              </a>  
+            </div>
+
+    
+          </div>
+
+          <div class="dream">
+            <div class="figure">
+              <a id="sofia" href="sofia.html">
+              <img class="Sirv image-main" src="images/sofiahomegif.gif">
+
+              </a>  
+            </div>
+            <div class="figure">
+              <a id="ema-lea" href="emalea.html">
+              <img class="Sirv image-main" src="images/emaleahome.gif">
+              <img class="Sirv image-hover" src="images/emaleahover.png">
+              </a>  
+            </div>
+          </div>
+
+          
+
+        </div>
+      </div>
+
+      <footer>Nuku Collective acknowledges and respects ngā iwi Māori as the Tangata Whenua of Aotearoa and are committed to upholding the principles of the Treaty of Waitangi.
+      </footer>
+
+    <script src="js/script.js"></script> 
+
   </body>
 
 </html>

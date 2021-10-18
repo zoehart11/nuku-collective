@@ -1137,7 +1137,7 @@ header {
 
  @media only screen and (max-width: 600px) {
     .photo-grid {
-      padding-top: 5vh;
+      padding-top: 20vh;
     }
  }
 
