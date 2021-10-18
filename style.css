@@ -975,6 +975,16 @@ header {
     padding-top: 7px;
     border-radius: 100px;
 }
+
+.phonelogopot {
+    align-content: center;
+    height: 140px;
+}
+.phonelogopot img {
+    margin: 0 30vw;
+    width: 40vw;
+}
+
 @media only screen and (min-width: 415px){
     .phonelogo {
         display: none;
@@ -990,8 +1000,8 @@ header {
         height: 110px;
     }
     .phonelogo img {
-        margin: 10 20vw;
-        width: 40vw;
+        margin: 0 20vw;
+        width: 60vw;
     }
 }
 
