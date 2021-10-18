@@ -968,7 +968,7 @@ header {
 
 .logopot2 {
     position: absolute;
-    height: 140px;
+    height: 100px;
     margin: 0px 20px;
     overflow-x: hidden;
     cursor: pointer;
@@ -990,8 +990,8 @@ header {
         height: 110px;
     }
     .phonelogo img {
-        margin: 0 20vw;
-        width: 60vw;
+        margin: 10 20vw;
+        width: 40vw;
     }
 }
 
