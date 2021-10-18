@@ -285,12 +285,27 @@ header {
     width: 100vw;
     position: relative;
 }
+.container2 {
+    width: 100vw;
+    position: relative;
+}
 .container .box {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
+.container2 .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 .container .box .dream {
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+   
+}
+.container2 .box .dream {
     display: flex;
     flex-direction: column;
     width: 27%;
@@ -302,12 +317,25 @@ header {
     margin-bottom: 30px;
     border-radius: 5px;
 }
-
+.container2 .box .dream img {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+@media only screen and (min-width: 650px){
+    .container2 {
+        display: none;
+    }
+    
+}
 @media only screen and (max-width: 650px){
-    .container .box {
+    .container{
+        display: none;
+    }
+    .container2 .box {
         flex-direction: column;
     }
-    .container .box .dream {
+    .container2 .box .dream {
         width: 100%;
         padding-left: 90px;
         padding-right: 90px;
@@ -318,7 +346,7 @@ header {
 
 @media only screen and (max-width: 415px){
 
-    .container .box .dream {
+    .container2 .box .dream {
         padding-top: 0px;
     }
     
@@ -326,7 +354,7 @@ header {
 
 
 @media only screen and (max-width: 375px){
-    .container .box .dream {
+    .container2 .box .dream {
         width: 100%;
         padding-left: 50px;
         padding-right: 50px;
@@ -1005,7 +1033,7 @@ header {
 }
 
 @media only screen and (min-width: 415px){
-    .phonelogo {
+    .phonelogopot {
         display: none;
     }
 }
