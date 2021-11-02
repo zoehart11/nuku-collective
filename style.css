@@ -855,7 +855,7 @@ header {
 }
 @media screen and (max-width: 2600px) {
     .dotsbox {
-        bottom: 1200px;
+        bottom: 600px;
     }
 }
 
