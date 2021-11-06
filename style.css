@@ -387,7 +387,7 @@ header {
 .figure:hover a#stella img.image-hover {
     cursor: url(images/cursor.gif), default;
 }
-.figure:hover a#pottery img.image-hover {
+.figure:hover a#pottery img {
     cursor: url(images/potterycursor.png), default;
 }
 .figure:hover a#mandarin img.image-hover {
@@ -395,6 +395,15 @@ header {
 }
 .figure:hover a#bella img.image-hover {
     cursor: url(images/bellacursor.png), default;
+}
+.figure:hover a#sofia img.image-hover {
+    cursor: url(images/soflogocursor.png), default;
+}
+.figure:hover a#ema-lea img.image-hover {
+    cursor: url(images/emaleacursor.png), default;
+}
+.figure:hover a#nuku img.image-hover {
+    cursor: url(images/nukucursor.png), default;
 }
 
 /* -============== Stella/GENERAL FEATURE PAGE ======================*/
