@@ -1271,3 +1271,21 @@ header {
     #nukubody {
         background: url(images/colours2.png);
     }
+
+
+        /* ================ CONTACT FORM ============= */
+
+        .contacterror {
+            color: yellow;
+            font-family: roc-grotesk-wide, sans-serif;
+            font-weight: 100;
+        }
+        .contactsuccess {
+            color: yellow;
+            font-family: roc-grotesk-wide, sans-serif;
+            font-weight: 100;
+        }
+
+        .contactmessage {
+            padding-top: 45vh;
+        }
