@@ -1259,6 +1259,7 @@ header {
 
  #bellabod {
      background: url(images/bellagradientbackground.png);
+     background-size: cover;
  }
 
   /* ======= EMA-LEA ====== */
