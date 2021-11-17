@@ -959,8 +959,12 @@ header {
 }
 @media screen and (max-width: 400px){
    p .bellaslidertext2 {
-        font-size: 10px;
+        font-size: 8px;
     }
+    .bellaslidertext1{
+        display: none;
+    }
+
 }
 
 
