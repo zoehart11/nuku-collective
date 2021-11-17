@@ -957,15 +957,6 @@ header {
         display: inline;
     }
 }
-@media screen and (max-width: 400px){
-   p .bellaslidertext2 {
-        font-size: 8px;
-    }
-    .bellaslidertext1{
-        display: none;
-    }
-
-}
 
 
 /* @media screen and (max-width: 800px) {
