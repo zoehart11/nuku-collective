@@ -948,12 +948,23 @@ header {
     display: none;
 }
 
+.inkorerobella2 {
+ display: none;
+}
+
 @media screen and (max-width: 1000px){
     .bellaslidertext1{
         display: none;
     }
 
     .bellaslidertext2 {
+        display: inline;
+    }
+    .inkorerobella1{
+        display: none;
+    }
+
+    .inkorerobella2 {
         display: inline;
     }
 }
