@@ -957,6 +957,11 @@ header {
         display: inline;
     }
 }
+@media screen and (max-width: 400px){
+   p .bellaslidertext2 {
+        font-size: 10px;
+    }
+}
 
 
 /* @media screen and (max-width: 800px) {
